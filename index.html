@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Java Script</title>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Учим <span>JavaScript</span></h1>
+
+		<div class="lesson-one">
+			<div class="lesson-one__container">
+				<h2 class="lesson-one__title title">Основы синтаксиса</h2>
+				<div class="lesson-one__sub-title sub-title">урок №1</div>
+				<div class="lesson-one__text text">
+					<ul>
+						<li>Точка с запятой <br>
+							Не обязательна, если каждое свойство прописывается с новой строки.
+							Рекомендуется всегда ее ставить.</li>
+						<li>Переменные <br>
+							Существует несколько типов. Фиксированные значения - литералы, значения констант и значения
+							переменных.</li>
+						<li>Операторы<br>
+							Существует большое множество - они означают операцию, которую нужно выполнить.<br>Например
+							<span class="yellow">* / + - = </span> и т.д.
+						</li>
+						<li>Выражения<br>
+							Это комбинации значений, переменных и операторов, которые либо присваивают переменной значение,
+							либо возвращают какое-то значение без его присваивания.</li>
+						<li>Ключевые слова<br>
+							Они предназначены для определения действия, которое необходимо выполнить. Например
+							<span class="yellow">let num = 4</span> говорит
+							браузеру создать переменную
+						</li>
+						<li>Блоки инструкции<br>
+							Сгруппировывает инструкции с помощью <span class="yellow">function name() {}</span></li>
+						<li>"use strict";<br>
+							По умолчанию новые функции JS отключены и для их работы необходимо прописывать данную команду в
+							самом начале кода</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="lesson-two">
+			<div class="lesson-two__container">
+				<h2 class="lesson-two__title title">Переменные</h2>
+				<div class="lesson-two__sub-title sub-title">урок №2</div>
+				<div class="lesson-two__text text">
+					<ul>
+						<li>Обьявление переменной<br>
+							Для этого используется ключевое слово
+							<span class="yellow">let</span>
+						</li>
+						<li>Наименование<br>
+							Для нейминга используют lowerCamelCase - каждое слово начинается с большой
+							буквы кроме первой</li>
+						<li>Присвоение значений<br>
+							После обьявления переменной нет необходимости сразу задавать ей значение.
+							Это можно сделать позже. <br>
+							Обьявить несколько переменных можно используя только один
+							<span class="yellow">let</span> и задать их через запятую.
+						</li>
+						<li>"use strict";<br>
+							Без данной строки переменные можно обьявлять без ключевого слова
+							<span class="yellow">let</span>.
+						</li>
+						<li>Область видимости переменных<br>
+							Если обьявить переменную в пределах одного блока за его пределами она
+							не существует.</li>
+					</ul>
+				</div>
+				<h2 class="lesson-two__title title">Константы</h2>
+				<div class="lesson-two__sub-title sub-title">урок №2</div>
+				<div class="lesson-two__text text">
+					<ul>
+						<li>Константа - это<br>
+							та же переменная, значение которой нельзя переопределить</li>
+						<li>Обьявление констант<br>
+							происходит с помощью оператора <span class="yellow">const</span></li>
+						<li>Заранее известные константы<br>
+							принято называть в верхнем регистре, а пробелы нижним подчеркиванием
+							<span class="yellow">BLOCK_SIZE</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="lesson-three">
+			<div class="lesson-three__container">
+				<h2 class="lesson-three__title title">Типы данных</h2>
+				<div class="lesson-three__sub-title sub-title">урок №3</div>
+				<div class="lesson-three__text text">
+					<p><span class="yellow">JS</span> является динамически типизированным языком. 
+						То есть тип данных меняется динамически в момент присвоения значения.</p>
+					<ul>
+						<li>Определение типа<br>
+							С помощью оператора <div class="yellow">typeof</div> можно определить 
+							тип переменной.</li>
+						<li><div class="yellow">undefined</div><br>
+							Неопределенный тип - присваивается переменным, которым не задали значение.</li>
+						<li><div class="yellow">null</div><br>
+							Ноль - значение переменной задается в случае, если мы обратились к обьекту
+							которого нет.</li>
+						<li><div class="yellow">boolean</div><br>
+							Правда/ложь.</li>
+						<li><div class="yellow">number</div><br>
+							Числовой тип данных - представляет собой целые и дробные числа. <br>
+							<div class="yellow">infinity</div> - бесконечность является типов number
+							образуется при делении на ноль. Может быть положительным и отрицательным. <br>
+							<div class="yellow">Nan</div> обозначает вычислительную ошибку.</li>
+						<li><div class="yellow">BigInt</div><br>
+							Очень большое число. Для его получения к числовому значению необходимо 
+							добавить букву <div class="yellow">n</div>.</li>
+						<li><div class="yellow">String</div><br>
+							Строка может быть обернута одинарными двойными и обратными кавычками. <br>
+							Между двойными и одинарными разницы нет, а с помощью обратных можно встраивать 
+							специальные выражения.</li>
+						<li><div class="yellow">Object</div><br>
+							Сложные типы данных, их можно создать используя {} со встроенными значениями ключа
+							и его значения.</li>
+						<li><div class="yellow">Symbol</div><br>
+							Уникальный идентификатор обьекта. Создается с помощью одноименной функции. <br>
+							<div class="yellow">let id = Symbol('id');</div></li>
+						<li><div class="yellow">function</div><br>
+							Тот же самый обьект, но для более простого определения функции.</li>
+						<li>Преобразование типов<br>
+							<div class="yellow">String(var)</div> - перевод из числа в строку. <br>
+							<div class="yellow">Number(var)</div> - перевод из строки в число. <br>
+							<div class="yellow">Boolean(var)</div> - перевод в boolean. <br>
+							Есть так же автоматическое преобразование типов, например при делении "2" / "2".
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<script src="./js/script.js"></script>
+</body>
+
+</html>
