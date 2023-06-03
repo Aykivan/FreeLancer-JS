@@ -67,3 +67,22 @@
 	let userCalc;
 	console.log(typeof userCalc);
 }
+
+// Lessons 6 - ... 
+{
+	// Бинарные
+	let userAge = 30 - 4; // Числа - операнды
+	console.log(userAge)
+
+	// Унарные
+	let userCash = -800; 
+	console.log(userCash)
+
+	let x;
+	// Остаток от деления 
+	x = 11 % 3;
+	console.log(`Остаток от деления 11 % 3 = ${x}`);
+
+	// Возведение в степень 
+	x = 3 ** 4;
+}
