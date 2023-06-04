@@ -1,4 +1,4 @@
-// Lesson 1 - 5
+// Lesson 1 - 3
 {
 	"use strict";
 	// Точка с запятой
@@ -68,14 +68,14 @@
 	console.log(typeof userCalc);
 }
 
-// Lessons 6 - ... 
+// Lessons 4 - ... 
 {
 	// Бинарные
 	let userAge = 30 - 4; // Числа - операнды
 	console.log(userAge)
 
 	// Унарные
-	let userCash = -800; 
+	let userCash = -800;
 	console.log(userCash)
 
 	let x;
@@ -84,5 +84,15 @@
 	console.log(`Остаток от деления 11 % 3 = ${x}`);
 
 	// Возведение в степень 
-	x = 3 ** 4;
+	x = 3 ** 2;
+
+	// Инкремент/Декремент
+	x++;
+	console.log(x);
+	x--;
+	console.log(x);
+	let y = 2 * ++x;
+	console.log(y);
+
+	
 }
