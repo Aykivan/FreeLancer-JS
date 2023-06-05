@@ -68,7 +68,7 @@
 	console.log(typeof userCalc);
 }
 
-// Lessons 4 - ... 
+// Lessons 4 - типы операций
 {
 	// Бинарные
 	let userAge = 30 - 4; // Числа - операнды
@@ -93,6 +93,25 @@
 	console.log(x);
 	let y = 2 * ++x;
 	console.log(y);
+}
 
-	
+// Lessons 5 - if else
+{
+	if (2 > 1) {
+		console.log('true');
+	}
+
+	if (3 > 2) console.log('true');
+	else console.log('false');
+
+	// ? : - двоеточие заменяет else
+	let message = (5 > 11) ? "Верно!" : "Не верно";
+	console.log(message);
+
+	// Вместо else if
+	message = (55 > 11) ? "Верно!" :
+		(5 > 21) ? "21!" :
+			(5 > 31) ? "31!" : "No!"
+	console.log(message);
+
 }
