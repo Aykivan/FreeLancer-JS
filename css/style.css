@@ -149,7 +149,11 @@ ul li {
   margin: 10px 0;
 }
 
-.lesson-one {
+.lesson-one,
+.lesson-four,
+.lesson-five,
+.lesson-six,
+.lesson-seven {
   margin: 0px 0px 40px 0px;
 }
 .lesson-two {

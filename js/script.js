@@ -113,5 +113,42 @@
 		(5 > 21) ? "21!" :
 			(5 > 31) ? "31!" : "No!"
 	console.log(message);
+}
 
+// Lesson 6 -For while
+{
+	// let i = 0;
+	// while (i < 4) {
+	// 	console.log(i);
+	// 	i++;
+	// }
+
+	// i = 0;
+	// do {
+	// 	console.log(i);
+	// 	i++;
+	// } while (i < 3);
+
+	// for (let j = 4; j > 0; j--) console.log(j);
+
+	// for (let j = 4; j > 0; j--) {
+	// 	if (j == i) break;
+	// 	console.log(j);
+	// }
+	// for (let j = 4; j > 0; j--) {
+	// 	if (j == 3) continue;
+	// 	console.log(j);
+	// }
+	// firstFor: for (let i = 4; i > 0; i--) {
+	// 	for (let j = 4; j > 0; j--) {
+	// 		if (j == 3) continue;
+	// 		break firstFor;
+	// 	}
+	// }
+}
+
+// Lesson 7 
+{
+	let getMessage = (text, name) => console.log(text + ', ' + name + '!');
+	getMessage('Привет', 'Иван')
 }
