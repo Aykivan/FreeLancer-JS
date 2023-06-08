@@ -149,6 +149,8 @@
 
 // Lesson 7 
 {
-	let getMessage = (text, name) => console.log(text + ', ' + name + '!');
-	getMessage('Привет', 'Иван')
+	// let getMessage = (text, name) => console.log(text + ', ' + name + '!');
+	// getMessage('Привет', 'Иван')
 }
+
+// Lesson 8 - objects
