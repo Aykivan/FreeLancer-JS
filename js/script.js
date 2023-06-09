@@ -217,3 +217,20 @@
 	// console.log(list);
 
 }
+
+// Lesson 9
+{
+	// let numOne = Math.round((1.005 + Number.EPSILON) * 100) / 100;
+	// console.log(numOne);
+
+	// let value = '158.58px';
+	// console.log(parseFloat(value));
+
+	// let numTwo = 58 + 'Ivan';
+	// if (isNaN(numTwo)) console.log('Выражение равно NaN');
+
+	// console.log(Math.min(10, 58, 39, -150, 0));
+
+	// let numThree = 58.858;
+	// console.log(Math.floor(numThree));
+}
