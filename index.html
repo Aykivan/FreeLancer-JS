@@ -374,6 +374,54 @@
 						<li>Math.max/min() - максимальной/минимальное</li>
 						<li>Math.abs() - абсолютное число - модуль</li>
 						<li>Math.pow(5, 8) - возведет число 5 в степень 8</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="lesson-ten">
+			<div class="lesson-ten__container">
+				<h2 class="lesson-ten__title title">Строки - <div class="yellow">String</div>
+				</h2>
+				<div class="lesson-ten__sub-title sub-title">урок №10</div>
+				<div class="lesson-ten__text text">
+					<ul>
+						<li>Спецсимвол <br>
+							<div class="yellow">\n</div> - перевод строки <br>
+							<div class="yellow">\t</div> - табуляция <br>
+							<div class="yellow">\\</div> - \ обратный слеш<br>
+							<div class="yellow">\"</div> - кавычки<br>
+							<div class="yellow">\u009A \u{1f60D}</div> - Иконки/символы UTF-16, UTF-32<br>
+						</li>
+						<li>
+							<div class="yello">someString.length</div> - длина строки
+						</li>
+						<li>
+							<div class="yello">someString[номер символа]</div> - получаем конкретный символ
+						</li>
+						<li>
+							<div class="yello">someString[someString.length - 1]</div> - получаем последний символ
+						</li>
+						<li>Регистр строки <br>
+							.toUpperCase()/.toLowerCase() - верхний/нижний регистр
+						</li>
+						<li>Поиск подстроки <br>
+							.indexOf('искомое значение', индекс символа с которого начинается поиск) <br>
+							При нахождении совпадений, будет выводится индекс символа с которого начинается совпадение
+							либо -1, если совпадений не найдено. <br>
+							Более современный способ поиска - <div class="yellow">.includes</div> выводит true/false <br>
+							startWith()/endWith() - поиск в начале/конце строки
+						</li>
+						<li>
+							Получение части строки - <div class="yellow">.slice(start, end - не включая)</div><br>
+							Если хотим вывести всю строку с одного символа до конца, указываем только стартовый символ.
+						</li>
+						<li>Сравнение строк происходит по индексу <br>
+							А меньше Б, так как Б идет под номером 2(1) <br>
+							Нижний регистр всегда больше верхнего <br>
+							Если первые символы равны, то сравнение продолжается пока не закончится одна из строк.
+						</li>
 						<li></li>
 					</ul>
 				</div>
@@ -381,7 +429,10 @@
 
 		</div>
 
+
 		<script src="./js/script.js"></script>
+		<script src="./js/problemBook.js"></script>
+		<script src="./js/modernBook.js"></script>
 </body>
 
 </html>

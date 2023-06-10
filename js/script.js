@@ -234,3 +234,45 @@
 	// let numThree = 58.858;
 	// console.log(Math.floor(numThree));
 }
+
+// My small practice 
+{
+	// let numOne = prompt('Введите переменную номер 1: '),
+	// 	numTwo = prompt('Введите переменную номер 2:');
+	// alert(`Максимальное число равно: ${Math.max(numOne, numTwo)}`);
+
+	// let man = confirm('Ты властный мужчина?');
+	// if (man) alert('А ты хорош!');
+	// else alert('Ай ай ай');
+
+	// alert(Number(parseInt('12321px')));
+	// let n = 2;
+	// alert(n **= 3);
+}
+
+// Lesson 10 - String
+{
+	// 	alert(`Привет! 
+	// Это многострочная строка.
+	// Ну как тебе?`);
+
+	// alert('Привет\nЭто еще один метод перевода строки!\nИ он мне нравится куда больше.')
+	// alert('\u009A \u{1f60D}');
+
+	// let
+	// string = prompt('Введите строку: '),
+	// find = prompt('Введите искомый символ: '),
+	// count = 0;
+	// for (let i = 0; i <= string.length; i++) {
+	// 	if (string[i] == find) {
+	// 		count++;
+	// 	}
+	// }
+	// if (count > 0) {
+	// 	alert(`В данной строке есть буква \"${find}\"\n` + 'Индекс искомой буквы равен: ' + string.indexOf(find));
+	// }
+	// else alert('В данной строке, нет буквы ' + `\"${find}\"`)
+	// if (string.includes(find)) alert(`В данной строке есть элемент \"${find}\"`)
+}
+
+// My small practice 
