@@ -67,7 +67,46 @@
 		alert(message);*/
 }
 
-// Логические операторы (Стр. 66)
+// Логические операторы (стр. 66)
 {
+	// alert(null || 2 || undefined);
+	// alert(alert(1) || 2 || alert(3));
+	// alert(1 && null && 2);
+	// alert(alert(1) && alert(2));
+	// alert(null || 2 && 3|| 4);
 
+	/*
+	let age = prompt('Ваш возраст: ');
+	if (14 < age && age < 18) alert('Вы подросток')
+	else if (18 < age && age < 35) alert('Вы еще так молоды')
+	else if (35 < age && age < 55) alert('Вы в самом расцвете сил')
+	else if (55 < age) alert('Ваш марафон только начался')
+	*/
+
+	// let age = 10;
+	// if (age < 14 || age > 90) console.log('Условие выполняемо')
+	// if (!(age > 14 || age < 90)) console.log('Условие выполняемо')
+
+	/*
+	if (-1 || 0) alert('first');
+	if (-1 && 0) alert('second');
+	if (null || -1 && 1) alert('third');
+	*/
+
+	/*
+	let name = prompt('Введите ваш логин: ');
+	if (name == 'Admin') {
+		let password = prompt('Введите пароль: ');
+		if (password == 'big boss') alert('Здравствуйте!');
+		else if (password == null || password == '') alert('Ввод отменен.');
+		else alert('Неверный пароль.');
+	} else if (name == null || name == '') {
+		alert('Ввод отменен.');
+	} else alert('Я вас не знаю.');
+	*/
+}
+
+// whole / for - Циклы (стр. 78)
+{
+	
 }
