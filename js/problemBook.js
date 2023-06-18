@@ -191,13 +191,37 @@
 
 	// №2 Даны два целых числа. Проверьте, что первое число без остатка делится на второе.
 	// let 
-		// numOne = 4,
-		// numTwo = 2;
+	// numOne = 4,
+	// numTwo = 2;
 	// if (numOne % numTwo == 0) console.log('Деление произведено без остатка.');
 	// else console.log(`Остаток от деления равен: ${numOne % numTwo}`);
 }
 
 // Уровень 1.4 
 {
-	
+	/*
+	while (i >= 1) {
+		console.log(i);
+		i--;
+	} 
+	*/
+
+	/*
+	let i = 0;
+	while (i < 10) {
+		if (i % 3 == 0) console.log(i);
+		i++;
+	}*/
+
 }
+
+// Уровень 1-5
+{
+	// let string = 'abcdefg';
+	// for (let i = string.length; i >= 0; i--) {
+	// 	console.log(string[i]);
+	// }
+}
+
+// Уровень 1-6
+{ }

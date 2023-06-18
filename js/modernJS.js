@@ -108,5 +108,42 @@
 
 // whole / for - Циклы (стр. 78)
 {
+	/*
+	let i = 3;
+	while (i) {
+		alert(i--);
+	}*/
+
+	// let i =0;
+	// while (i++ < 5) alert(i);
+
+	// for (let i = 2; i <= 6; i++) {
+	// 	if (i % 2 != 0) continue;
+	// 	alert(i);
+	// }
+
+	// let i = 0;
+	// while (i < 3) {
+	// 	alert(`number ${i}!`);
+	// 	i++;
+	// }
+
+	// let num;
+	// do {
+	// 	num = prompt('Введите число больше 100 ');
+	// } while (num < 100 && num);
+
+	// let n = 10;
+	// next: 
+	// for (let i = 2; i < n; i++){
+	// 	for (let j = 2; j < i/2; j++) {
+	// 		if (i % j == 0) continue next;
+	// 	}
+	// 	alert(i);
+	// }
+}
+
+// Switch (стр. 87)
+{
 	
 }
