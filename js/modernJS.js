@@ -143,7 +143,54 @@
 	// }
 }
 
-// Switch (стр. 87)
+// Switch (стр. 88)
+{
+	/*
+	let browser = 'Chrome';
+	switch (browser) {
+		case 'Edge':
+			alert('something');
+			break;
+		case 'Chrome':
+		case 'Safari':
+		case 'FireFox':
+		case 'Opera':
+			alert('something two');
+			break;
+		default:
+			alert('something three');
+	}
+
+	if (browser === 'Edge') {
+		alert('something');
+	} else if (browser === 'Chrome'
+		|| browser === 'Safari'
+		|| browser === 'FireFox'
+		|| browser === 'Opera') {
+		alert('something two');
+	} else {
+		alert('something three');
+	}
+	*/
+
+	/*
+	let number = +prompt('Введите число от 0 до 3: ');
+	switch (number) {
+		case (0):
+			alert('Вы ввели 0');
+			break;
+		case (1):
+			alert('Vi vvely 1');
+			break;
+		case (2):
+		case (3):
+			alert('Vvely 2, a mojet i 3, hz-hz');
+			break;
+	}
+	*/
+}
+
+// function (стр. 92) 
 {
 	
 }
