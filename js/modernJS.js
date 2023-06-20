@@ -192,5 +192,12 @@
 
 // function (стр. 92) 
 {
-	
+	function checkAge(age) {
+		if (age > 18) return true;
+	}
+
+	let age = prompt('Введите ваш возраст: '),
+		some = checkAge(age);
+		console.log(some);
+
 }
