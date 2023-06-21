@@ -190,14 +190,47 @@
 	*/
 }
 
-// function (стр. 92) 
+// Function (стр. 92) 
 {
-	function checkAge(age) {
-		if (age > 18) return true;
+	// function checkAge(age) {
+	// 	if (age > 18) return true;
+	// 	else return confirm("оу май");
+	// }
+
+	// function checkAge2(age) {
+	// 	return (age > 18) || confirm("оу май");
+	// }
+
+	// let age = prompt('Введите ваш возраст: '),
+	// 	some = checkAge(age),
+	// 	some2 = checkAge2(age);
+	// console.log(some);
+	// console.log(some2);
+
+	let
+		a = 2,
+		b = 3;
+
+	function getMin(a, b) {
+		return (a > b) ? a: b;
 	}
 
-	let age = prompt('Введите ваш возраст: '),
-		some = checkAge(age);
-		console.log(some);
+	function getPow(a, b) {
+		// return Math.pow(a, b);
+		let res = a;
+		for (let i = 1; i < b; i++) {
+			res *= a;
+		}
+		return res;
+	}
 
+	// a = prompt('Введите число: ');
+	// b = prompt('Введите его степень: ');
+	// if (b >= 1) alert(`Число а = ${a} в степени ${b}, будет равно ${getPow(a, b)}`);
+	// else alert("Данная программа настроена на работу только с целыми числами");
+}
+
+// Function Expression (стр. 104) 
+{
+	
 }
