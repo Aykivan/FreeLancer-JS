@@ -190,7 +190,7 @@
 	*/
 }
 
-// Function (стр. 92) 
+// Function (стр. 92)
 {
 	// function checkAge(age) {
 	// 	if (age > 18) return true;
@@ -212,7 +212,7 @@
 		b = 3;
 
 	function getMin(a, b) {
-		return (a > b) ? a: b;
+		return (a > b) ? a : b;
 	}
 
 	function getPow(a, b) {
@@ -230,7 +230,21 @@
 	// else alert("Данная программа настроена на работу только с целыми числами");
 }
 
-// Function Expression (стр. 104) 
+// Function Expression (стр. 104)
 {
-	
+	// function ask(question, yes, no) {
+	// 	if (confirm(question)) yes();
+	// 	else no();
+	// }
+
+	// ask(
+	// 	'Вам есть 18?',
+	// 	() => { alert('Здравствуйте!'); },
+	// 	() => { alert('Привет!'); }
+	// )
+}
+
+// Особенности JS (стр. 114)
+{
+
 }
