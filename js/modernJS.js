@@ -260,3 +260,29 @@
 }
 
 // Обьекты (стр. 156)
+{
+	// let myFirstObject = new Object();
+	// let myTwelveObject = {};
+	// myTwelveObject.name = 'John';
+	// myTwelveObject.surname = 'Smith';
+	// console.log(myTwelveObject['name']); 
+	// myTwelveObject.name = 'Pete';
+	// console.log(myTwelveObject.name);
+	// delete myTwelveObject.name;
+	// console.log('name' in myTwelveObject);
+	// for (let key in myTwelveObject) {
+	// 	console.log(myTwelveObject[key]);
+	// }
+
+	// function isEmpty(someObject) {
+	// 	for (let key in someObject) {
+	// 		return true;
+	// 	}
+	// 	return false;
+	// }
+
+	// console.log(isEmpty(myFirstObject));
+	// console.log(isEmpty(myTwelveObject));
+}
+
+// Обьекты-константы (стр. 168)
