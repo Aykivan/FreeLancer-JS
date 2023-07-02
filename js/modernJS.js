@@ -259,7 +259,7 @@
 	// })
 }
 
-// Обьекты (стр. 156)
+// Объекты (стр. 156)
 {
 	// let myFirstObject = new Object();
 	// let myTwelveObject = {};
@@ -283,6 +283,40 @@
 
 	// console.log(isEmpty(myFirstObject));
 	// console.log(isEmpty(myTwelveObject));
+
+
+	// Напишите код для суммирования всех зарплат и сохраните результат в переменной sum. Должно получиться 390 .
+
+	// let salaries = {
+	// 	John: 100,
+	// 	Ann: 160,
+	// 	Pete: 130,
+	// }
+
+	// function summKeyObj(obj) {
+	// 	let summ = 0;
+	// 	for (let key in obj) {
+	// 		summ += salaries[key];
+	// 	}
+	// 	return summ;
+	// }
+
+	// Создайте функцию multiplyNumeric(obj) , которая умножает все числовые свойства объекта obj на 2 .
+
+	// let menu = {
+	// 	width: 200,
+	// 	height: 300,
+	// 	title: 'My menu'
+	// }
+
+	// function multiplyNumeric(obj) {
+	// 	for (let key in obj) {
+	// 		if (typeof (obj[key]) == 'number') obj[key] *= 2;
+	// 	}
+	// }
+
+	// multiplyNumeric(menu);
+	// console.log(menu);
 }
 
-// Обьекты-константы (стр. 168)
+// Копирование объектов и ссылки (стр. 169)
