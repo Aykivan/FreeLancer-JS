@@ -328,11 +328,84 @@
 	// }
 
 	// let clone = Object.assign({}, user);
-	
+
 }
 
 // Сборка мусора (стр. 174)
-{}
+{ }
 
 // Методы объекта, "this" (стр. 181)
-{}
+{
+	// let user = {
+	// 	name: 'Joan',
+	// 	age: '30',
+	// };
+
+	// user.sayHi = function() {
+	// 	alert('Привет!');
+	// };
+
+	// user.sayHi();
+
+	// let user = {
+	// 	name: 'Joan',
+	// 	age: '30',
+
+	// 	sayHi() {
+	// 		alert('Привет! Меня зовут - ' + this.name + '. ' + `Мне ${this.age} лет.`);
+	// 	},
+	// };
+	// user.sayHi();
+
+	// Создайте объект calculator (калькулятор) с тремя методами:
+	// read() (читать) запрашивает два значения и сохраняет их как свойства объекта.
+	// sum() (суммировать) возвращает сумму сохранённых значений.
+	// mul() (умножить) перемножает сохранённые значения и возвращает результат.
+
+	/*
+	let calc = {
+		read() {
+			this.a = +prompt('Введите первое число: ');
+			this.b = +prompt('Введите второе число: ');
+		},
+		sum() {
+			return (this.a + this.b);
+		},
+		mul() {
+			return (this.a * this.b);
+		},
+		show() {
+			alert(`Первое число - ${this.a} \n Второе число - ${this.b}`);
+		},
+	}
+	calc.read();
+	alert(calc.sum());
+	alert(calc.mul());
+	*/
+
+	/*
+	let ladder = {
+		step: 0,
+		up: function() {
+			this.step++;
+			return this;
+		},
+		down: function() {
+			this.step--;
+			return this;
+		},
+		showStep: function() {
+			alert(this.step);
+		},
+	};
+	ladder.up().up().down().showStep();
+*/
+
+}
+
+// ООП хорошие книги (стр. 183)
+
+// Конструкторы, создание обьектов через 'new' (стр. 192)
+{
+	
+}
