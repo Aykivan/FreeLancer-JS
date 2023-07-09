@@ -407,5 +407,42 @@
 
 // Конструкторы, создание обьектов через 'new' (стр. 192)
 {
+	/*
+	function Calculator() {
+		this.read = function() {
+			this.a = +prompt('Введите первое число: ');
+			this.b = +prompt('Введите второе число: ');
+		};
+		this.sum = function() {
+			return this.a + this.b;
+		};
+		this.mul = function() {
+			return this.a * this.b;
+		};
+	}
+
+	let calculator = new Calculator();
+	calculator.read();
+	alert(calculator.sum());
+	alert(calculator.mul());
+	*/
+
+	/*
+	function Accumulator(startValue) {
+		this.value = startValue;
+		this.read = function() {
+			return this.value += +prompt('Введите число: ');
+		};
+	}
+
+	let accumulator = new Accumulator(1);
+	accumulator.read();
+	accumulator.read();
+	alert(accumulator.value);
+	*/
+}
+
+// Опциональная цепочка (стр. 198)
+{
 	
 }
