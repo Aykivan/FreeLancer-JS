@@ -332,7 +332,7 @@
 }
 
 // Сборка мусора (стр. 174)
-{}
+{ }
 
 // Методы объекта, "this" (стр. 181)
 {
@@ -456,4 +456,61 @@
 // Методы у примитивов (стр. 213)
 
 // Числа (стр. 216)
-{}
+{
+	/*
+	// let num = 1.23;
+	// let num1 = 1.46;
+	// let num2 = 1.58;
+
+	// console.log(Math.floor(num));
+	// console.log(Math.ceil(num1));
+	// console.log(Math.round(num2));
+	// console.log(Math.trunc(num2));
+
+	// console.log(num2.toFixed(1));
+	// console.log(typeof(num2.toFixed(1)));
+	// console.log(+num2.toFixed(1) + num);
+
+	// let num = NaN;
+	// let num1 = 1;
+	// console.log(isNaN(num));
+	// console.log(isNaN(num1));
+
+	// let finite = 1;
+	// let finite1 = Infinity;
+	// console.log(isFinite(finite));
+	// console.log(isFinite(finite1));
+
+	// let num = +prompt('Enter a number: ');
+	// alert(isFinite(num));
+
+	// console.log(Object.is(NaN, 1));
+	// console.log(parseInt('1234.12e'));
+	// console.log(parseFloat('1234.12e'));
+
+	// console.log(Math.random(5));
+	// console.log(Math.min(5, 3, 1, 0, 4));
+	// console.log(Math.max(4, 9));
+	// console.log(Math.pow(2, 4));
+
+	// console.log(3e3);
+	// console.log(3e-3);
+
+	// let a = +prompt('Enter the first number: ')
+	// let b = +prompt('Enter the second number: ')
+	// alert(`The sum of the numbers is: ${a + b}`)
+
+	// alert(6.35.toFixed(1));
+	// alert(Math.round(6.35 * 10) / 10);
+	*/
+
+	function readNumber() {
+		let num;
+		do {
+			num = +prompt('Enter the number: ');
+		} while (!isFinite(num));
+		if (num == null || num == '') return null;
+		return num;
+	}
+}
+
