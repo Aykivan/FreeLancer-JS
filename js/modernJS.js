@@ -504,13 +504,46 @@
 	// alert(Math.round(6.35 * 10) / 10);
 	*/
 
-	function readNumber() {
-		let num;
-		do {
-			num = +prompt('Enter the number: ');
-		} while (!isFinite(num));
-		if (num == null || num == '') return null;
-		return num;
-	}
+	/*
+	Math.floor
+	Округление в меньшую сторону: 3.1 становится 3 , а -1.1 — -2 .
+	
+	Math.ceil
+	Округление в большую сторону: 3.1 становится 4 , а -1.1 — -1 .
+	
+	Math.round
+	Округление до ближайшего целого: 3.1 становится 3 , 3.6 — 4 , а -1.1 — -1 .
+	
+	Math.trunc (не поддерживается в Internet Explorer)
+	Производит удаление дробной части без округления: 3.1 становится 3 , а -1.1 — -1 .
+*/
+
+	// function readNumber() {
+	// 	let num;
+	// 	do {
+	// 		num = +prompt('Enter the number: ');
+	// 	} while (!isFinite(num));
+	// 	if (num == null || num == '') return null;
+	// 	return num;
+	// }
+
+	// function getRandom(min, max) {
+	// 	let result = Math.round(Math.random() * (max - min) + min);
+	// 	return result;
+	// } 
+
+	// function getRandom(min, max) {
+	// 	let result = Math.round(Math.random() * (max + 1 - min) + min);
+	// 	return Math.floor(result);
+	// } 
+
+	// console.log(getRandom(1, 3));
+	// console.log(getRandom(1, 3));
+	// console.log(getRandom(1, 3));
+}
+
+// Строки (стр. 228)
+{
+	
 }
 
